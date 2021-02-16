@@ -13,7 +13,6 @@ export default function Board(props: Props) {
 
   return (
     <div>
-      <div className={styles.status}>{status}</div>
       <div className={styles.boardRow}>
         {renderSquare(0)}
         {renderSquare(1)}
