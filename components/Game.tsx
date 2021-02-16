@@ -36,7 +36,7 @@ export default function Game() {
       </div>
       <div className={styles.gameInfo}>
         <div>{status}</div>
-        <ol>{/* TODO */}</ol>
+        <ol>{}</ol>
       </div>
     </div>
   );
